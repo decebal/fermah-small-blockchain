@@ -1,0 +1,11 @@
+[package]
+name = "fermah-small-blockchain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blake3 = "1.5.4"
+rand = "0.8.5"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+tokio = { version = "1.40.0", features = ["full"] }
